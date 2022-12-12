@@ -16,7 +16,7 @@ For Data Cleaning, Cleaning the data to ensure consistency is necessary before a
 
 1) Change the SexUpdated column such that only males, females, or unknown/blanks were present.
 2) Any numerical proportion column with N/A values were converted to 0.
-3) made sure that the year format was the same for all of the variables in YearUpdated.
+3) Made sure that the year format was the same for all of the variables in YearUpdated.
 
 Additionally, we chose not to use the smaller "cleaned" data set and instead simply used the raw data. 
 
