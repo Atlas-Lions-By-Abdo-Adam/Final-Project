@@ -10,6 +10,13 @@ The data sets on ladybugs include observations of many species of ladybugs. Each
 
 Cleaning the data to ensure consistency is necessary before analysis and the production of useful data. On this data set, the following data cleaning procedures were used:
 
+1)Change the SexUpdated column such that only males, females, or unknown/blanks were present.
+2)Any numerical proportion column with N/A values were converted to 0.
+3)made sure that the year format was the same for all of the variables in YearUpdated.
+
+Additionally, we chose not to use the smaller "cleaned" data set and instead simply used the raw data.
+
+
 ## Statistics About Locations in the Data: ##
 
 The average latitude and longitude of the many ladybug species, according to their scientific names, are depicted in the graph below.
